@@ -1,0 +1,20 @@
+schema_version: 0.1.0
+mappings:
+- id: ai-inventory
+  source: nist-ai-rmf:GOVERN-1.6
+  target: nist-800-53:CM-8
+  relationship: related
+  review_status: candidate
+  rationale: AI inventory records can be linked to a broader system component inventory.
+  limitation: An AI system includes context and responsibilities beyond a component
+    list. This is an author-proposed relationship, not an official crosswalk.
+  source_locator: AI RMF 1.0 GOVERN 1.6; SP 800-53 Rev. 5 CM-8
+- id: ai-accountability
+  source: nist-ai-rmf:GOVERN-2.1
+  target: nist-800-53:PM-1
+  relationship: related
+  review_status: candidate
+  rationale: AI responsibility records can inform organization-level security planning.
+  limitation: AI risk accountability is broader than an information security program.
+    Neither reference substitutes for the other.
+  source_locator: AI RMF 1.0 GOVERN 2.1; SP 800-53 Rev. 5 PM-1

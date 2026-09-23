@@ -1,0 +1,19 @@
+schema_version: 0.1.0
+framework: florida-60gg-2
+version: Rule titles effective 2022-09-18; checked 2026-09-23
+source_url: https://flrules.org/gateway/ChapterHome.asp?Chapter=60GG-2
+checked_on: '2026-09-23'
+coverage: selected-references
+controls:
+- id: florida-60gg-2:60GG-2.002
+  source_locator: 60GG-2.002
+  label: Identify
+  summary: Rule-level reference only; no subsection requirements reproduced.
+- id: florida-60gg-2:60GG-2.003
+  source_locator: 60GG-2.003
+  label: Protect
+  summary: Rule-level reference only; no subsection requirements reproduced.
+- id: florida-60gg-2:60GG-2.004
+  source_locator: 60GG-2.004
+  label: Detect
+  summary: Rule-level reference only; no subsection requirements reproduced.

@@ -1,0 +1,23 @@
+schema_version: 0.1.0
+mappings:
+- id: irs-accounts
+  source: irs-1075:AC-2
+  target: nist-800-53:AC-2
+  relationship: related
+  review_status: candidate
+  rationale: Publication 1075 section 4.1 uses the AC-2 identifier for IRS-tailored
+    account management.
+  limitation: Preserve IRS-specific parameters, enhancements, FTI scope, and restrictions;
+    a shared identifier does not establish equivalence.
+  source_locator: Publication 1075 (November 2021), section 4.1, AC-2; SP 800-53 Rev.
+    5 AC-2
+- id: irs-privilege
+  source: irs-1075:AC-6
+  target: nist-800-53:AC-6
+  relationship: related
+  review_status: candidate
+  rationale: Publication 1075 section 4.1 uses AC-6 for IRS-tailored privilege requirements.
+  limitation: Tailoring and applicability must be reviewed against the primary sources
+    before use.
+  source_locator: Publication 1075 (November 2021), section 4.1, AC-6; SP 800-53 Rev.
+    5 AC-6

@@ -1,0 +1,22 @@
+schema_version: 0.1.0
+mappings:
+- id: fl-identify-candidate
+  source: florida-60gg-2:60GG-2.002
+  target: nist-800-53:CM-8
+  relationship: related
+  review_status: candidate
+  rationale: Inventory is a candidate topic for comparing the Identify rule with component
+    inventory.
+  limitation: Theme-level research candidate only. No subsection-level mapping is
+    asserted; review the full rule before making a requirement claim.
+  source_locator: 'Chapter index: 60GG-2.002 Identify; SP 800-53 Rev. 5 CM-8'
+- id: fl-detect-candidate
+  source: florida-60gg-2:60GG-2.004
+  target: nist-800-53:AU-6
+  relationship: related
+  review_status: candidate
+  rationale: Activity review is a candidate topic for comparing the Detect rule with
+    audit analysis.
+  limitation: Theme-level research candidate only. This is not an official Florida/NIST
+    crosswalk or evidence of rule compliance.
+  source_locator: 'Chapter index: 60GG-2.004 Detect; SP 800-53 Rev. 5 AU-6'

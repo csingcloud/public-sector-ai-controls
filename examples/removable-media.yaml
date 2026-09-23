@@ -1,0 +1,15 @@
+schema_version: 0.1.0
+id: removable-media
+synthetic: true
+question: Can a reviewer connect a synthetic media-access event to its applicable
+  policy?
+control_refs:
+- nist-800-53:MP-7
+- nist-800-53:AU-6
+evidence_to_collect:
+- synthetic device-control policy
+- synthetic media-access event
+- review disposition
+assessment_status: not-assessed
+limitations: An example evidence checklist does not establish full control coverage
+  or legal applicability.
